@@ -47,4 +47,16 @@
 //     return 110;
 // }
 // console.log(number());
+// let hellow=function(){
+//     return "hellow world";
+// }
+// console.log(hellow());
+// let hellow =()=>console.log('hellow world');
+// hellow();
 // //? simpley its called arrow function
+
+// const number=(n,v)=> n+v;
+
+// console.log(number(5,10));
+
+
