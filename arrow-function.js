@@ -36,5 +36,15 @@
 //     // write code 
 
 // }
-// console.log(arrowSyntax());
-another 
+// console.log(arrowSyntax);
+// function number() {
+//     return 10;
+    
+// }
+// console.log(number());
+
+// const number=()=>{
+//     return 110;
+// }
+// console.log(number());
+// //? simpley its called arrow function
