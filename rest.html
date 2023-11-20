@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        function sum(name,course,...arguments){
-            console.log(arguments);
-            document.write(`Hellow ${name }- ${course} :`)
-            let sum =0;
-            for (let i in arguments){
-                sum+=arguments[i];
-            }
-            document.write(sum+"<br>");
-        }
-        sum("Yahoo Baba","BBA",10,20,30,80 );
-        sum( "Ram kumar","MBA",20,30,0,10,10);
-        sum( "Salman khan","MSc",20,30,0,10,10,200);
-        sum( "Iftakhar alam","BBA",30,0,10,10,200);
-    </script>
+ 
 </head>
 <body>
     
+
+
+   
 </body>
+<script>
+    function sum(name,course,...arguments){
+        console.log(arguments);
+        document.write(`Hellow ${name }- ${course} :`)
+        let sum =0;
+        for (let i in arguments){
+            sum+=arguments[i];
+        }
+        document.write(sum+"<br>");
+    }
+    let arr =[10,20,30,50];
+    sum("Yahoo Baba","BBA",...arr );
+    // sum( "Ram kumar","MBA",20,30,0,10,10);
+    // sum( "Salman khan","MSc",20,30,0,10,10,200);
+    // sum( "Iftakhar alam","BBA",30,0,10,10,200);
+</script>
 </html>
