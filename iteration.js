@@ -132,3 +132,25 @@ console.log(sum);
 
 
 
+// const days=["saturday","sunday","monday","tuesday","wednesday","thursday","fryday"];
+// console.log(days);
+// const reversDay=days.reverse();
+// console.log(reversDay);
+// console.log(days);
+//*reverse method e orginal array or object k o change kore de.
+// let result ="good";
+// if (result=="good"||result=="passed") {
+//     console.log("aso barite jaiga ache"); 
+
+    
+// }
+// else{
+//     if (result=="bad") {
+//         console.log("porasuna bad dyea ban cala "); 
+        
+//     }
+//     else{
+//         console.log( "Bari tekhe beriea ja");
+//     }
+// }
+
