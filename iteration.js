@@ -27,12 +27,12 @@
 
 //*reduce  method start.
 
-// const numbers =[1,2,3,4,5,6,7];
-// const sum=numbers.reduce((prevValue,curentValue,curentIndex,arr)=>{
-//     return prevValue+curentValue;
+const numbers =[1,2,3,4,5,6,7];
+const sum=numbers.reduce((prevValue,curentValue,curentIndex,arr)=>{
+    return prevValue+curentValue;
 
-// },0);
-// console.log(sum);
+});
+console.log(sum);
 
 //!initalValue dite hoi karon first index er kono previous value takhe na so initalValu baire onno variable er bitor assign kore o dewa jai abr direct o dewa jai .
 // const array1 = [1, 2, 3, 4];
@@ -102,5 +102,33 @@
 
 //?return value :the accumulated result form the last call of the callback function.
 //*Reduce method End
+
+// const person=[
+//     {name:"iftakhar",
+//         age:25,
+//     gender:"male",
+//     profession:"student"},
+//     {
+//         name:"shorif",
+//         age:24,
+//         gender:"male",
+//         profession:"job-holder",
+//     },
+//     {
+//         name:"jenia afrin",
+//         age:22,
+//         gender:"female",
+//         profession:"Doctor"
+//     },
+//     {
+//         name:"Nur islam",
+//         age:55,
+//         gender:"male",
+//         profession:"farmer"
+//     }
+// ];
+// const singlePerson=person.filter((value)=>value.gender==="female");
+// console.log(singlePerson);
+
 
 
