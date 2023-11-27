@@ -154,3 +154,17 @@ console.log(sum);
 //     }
 // }
 
+// const data =[..."hellow"];
+// console.log(data);
+// const array=[1,2,3,4,5];
+// console.log(1 in array);
+// console.log(2 in array);
+// console.log(3 in array);
+// console.log(4 in array);
+// console.log(5 in array);
+// console.log(6 in array);
+// console.log(100 in array);
+// const x ='hellow';
+// for (let y of x){
+//     console.log(y);
+// }
